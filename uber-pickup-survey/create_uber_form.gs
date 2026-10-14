@@ -21,7 +21,7 @@ function createUberPickupSurvey() {
     '• Please do not include personally identifying information in written answers.\n' +
     '• Responses will be used for independent product research and reported in anonymized or aggregated form.\n' +
     '• Estimated completion time: 4–5 minutes.\n\n' +
-    'Thank you for sharing your experience!');
+    'By submitting, you are happy for your answers to be used for this research. Thank you for sharing your experience! 🙏');
 
   // Anonymity & privacy settings
   form.setCollectEmail(false);
@@ -48,10 +48,7 @@ function createUberPickupSurvey() {
     return item;
   }
 
-  // ---------- Page 1: consent + Q1 ----------
-  form.addCheckboxItem().setTitle('Consent')
-    .setChoiceValues(['I voluntarily agree to share my responses for independent customer experience research.'])
-    .setRequired(true);
+  // ---------- Page 1: Q1 ----------
   var q1 = form.addMultipleChoiceItem().setTitle('Q1. Have you used Uber for booking a ride?').setRequired(true);
 
   // ---------- Page 2: Uber users (Q2–Q15) ----------
