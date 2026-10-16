@@ -213,7 +213,6 @@ text(s, 0.8, 2.8, 11.7, 1.4, [('Research question', RGBColor(0x94, 0xA3, 0xB8)),
                               'Why do Uber riders and drivers struggle to find each other at pickup, and which problem should be prioritised for product discovery?'],
      size=21, color=RGBColor(0xCB, 0xD5, 0xE1))
 text(s, 0.8, 4.5, 11.7, 1.4, [('Core customer job (Jobs to Be Done)', RGBColor(0x94, 0xA3, 0xB8)), JOB], size=21, color=WHITE)
-text(s, 0.8, 6.3, 11.7, 0.6, 'AI Product Management assignment, IIMA AGMP', size=16, color=RGBColor(0x94, 0xA3, 0xB8))
 s.notes_slide.notes_text_frame.text = n1; NOTES[1] = n1
 
 # ---- Slide 2 (methodology + framework map)
