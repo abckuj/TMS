@@ -1,0 +1,13 @@
+﻿log_id,phase,action,column,rows_affected,detail,resp_ids
+1,1,load_input,,27,Uber Ride & Pickup Experience Survey (Responses).xlsx [sheet Form Responses 1],
+2,1,column_not_in_form_script,consent,0,"Export column ""Consent"" has no item in create_uber_form.gs; kept as-is",
+3,1,wording_differs,Q5a,0,"Export header ""Q5a. Is the app showing exact location of yours or near-by places? Please share your experience with app"" != .gs ""Q5a. What worked well, or what information was missing or confusing?"". Export header = live form title at export; which wording each respondent saw cannot be verified.",
+4,1,wording_differs,Q15,0,"Export header ""Q15. Would you like to provide any additional feedback about Uber app and their services?"" != .gs ""Q15. Would you like to provide any additional feedback about Uber?"". Export header = live form title at export; which wording each respondent saw cannot be verified.",
+5,2,strip_cell_whitespace,,42,Leading/trailing spaces removed from cell values (text otherwise unchanged),
+6,1,consent_column_empty,consent,27,"Consent checkbox was replaced by an implied-consent line in the form description (commit d24ac58); column is a leftover and is empty for all rows. Kept, not used.",
+7,2,write_in_other_text,Q4,3,Text not matching a form option moved to _other_text (original column unchanged),"R04,R16,R23"
+8,2,open_text_nonanswer_flagged,Q11a,1,NA-style text flagged in _nonanswer; original text kept,R08
+9,2,contradictory_multiselect,Q4,1,"""I have not experienced such difficulty"" selected together with other options; flagged, not changed",R13
+10,2,contradictory_multiselect,Q9,2,"""No significant inconvenience"" selected together with other options; flagged, not changed","R17,R27"
+11,2,q3_no_but_difficulty,Q3,2,"Q3=""No"" yet Q4/Q6 report difficulty (Q6 wording is about crowded places generally); flagged only","R06,R19"
+12,2,suspected_test_flagged,,3,"Keyboard-string free text; flagged, kept in file; excluded from analysis base (PENDING researcher confirmation)","R01,R02,R03"

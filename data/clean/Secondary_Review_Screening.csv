@@ -1,0 +1,161 @@
+﻿review_id,decision,exclusion_reason,relevance,perspective,theme_codes,journey_stages,location_type,stated_place,coder_note
+14664679835,include,,medium,rider,GATE_CONFUSION,2;5,airport,,Suggests an airport help desk / location link for pickup
+14664449542,include,,high,rider,WAITING;COMMUNICATION;DRIVER_LOCATION_DIFFICULTY;CANCELLATION,3;4;6,,,"Driver 2 min away did not move 7-8 min, no reply; rider cancelled and paid fee"
+14661268058,include,,high,rider,RIDER_WALKING;COMMUNICATION,3;4,,,"Drivers unwilling to come to pickup pin, ask riders to come elsewhere"
+14661203131,include,,medium,rider,FARE_TRUST;CANCELLATION,4;6,,,Driver asked rider to cancel after extra money refused; rider charged fee
+14656670481,include,,medium,rider,SCHEDULED_TIMING;CANCELLATION,1;3;6,airport,Pune airport,Driver arrived early without flight tracking; cancellation charge dispute
+14653532861,include,,high,rider,GATE_CONFUSION;RIDER_WALKING;VEHICLE_IDENTIFICATION,2;5,airport,Delhi airport,"Pickup point far from gate, unclear directions, touts; cab details did not match"
+14548905773,include,,medium,rider,CANCELLATION,1;6,,,"Hindi (romanised): drivers accepted, saw location, cancelled"
+14541854454,include,,high,rider,COMMUNICATION;CANCELLATION,4;6,,,"Driver did not answer call or share whereabouts, then cancelled"
+14653506371,include,,medium,rider,WAITING;CANCELLATION,3;6,,,"Waited for driver, ride suddenly cancelled"
+14646647420,include,,high,rider,WAITING;COMMUNICATION;DRIVER_LOCATION_DIFFICULTY,3;4;5,busy street,near Jubilee Mission Hospital (as stated),"ETA kept rising, invalid number; driver argued about which side/bus stop"
+14645034712,include,,medium,rider,CANCELLATION,3;6,,,"Drivers cancel, ask rider to cancel, or accept but never arrive"
+14644629095,include,,medium,rider,FARE_TRUST;CANCELLATION;WAITING,3;4;6,,,Drivers accept then demand more money; neither cancel nor come
+14640771178,include,,high,rider,COMMUNICATION;CANCELLATION,4;6,,,"Drivers do not pick up calls, cancel after reaching location"
+14635335466,include,,medium,rider,FARE_TRUST;COMMUNICATION,4,,,Drivers call before pickup to check booked price; reviewer attributes to app glitch
+14633473444,include,,high,rider,FALSE_ARRIVAL;DRIVER_LOCATION_DIFFICULTY;CANCELLATION,3;5,,,Driver stops near but not visible and starts trip
+14630334264,include,,medium,rider,DRIVER_LOCATION_DIFFICULTY,3,,,Wrong route shown to pickup; driver corrected it
+14623385912,include,,high,rider,VEHICLE_IDENTIFICATION,5,airport,Cochin International Airport,Different car/driver sent; rider rebooked four times
+14615240094,include,,medium,rider,FARE_TRUST;COMMUNICATION,4,,,Drivers call before arrival to ask extra money and destination
+14615015128,include,,medium,rider,FARE_TRUST;CANCELLATION,4;6,,,"Driver asked double, would not cancel; rider cancelled and paid fee"
+14611329309,include,,medium,rider,CANCELLATION;WAITING,3;6,,,Driver cancelled after confirmation and 30 min wait; rider charged
+14605739462,include,,high,rider,PIN_MISMATCH,2,residential complex,,"Residence location not captured, auto gets mislocated"
+14595321473,include,,high,rider,FARE_TRUST;CANCELLATION,4;5;6,,Pune,"Drivers demand meter fare on arrival, make rider cancel (fee on rider)"
+14593778522,include,,medium,rider,CANCELLATION,6,,Delhi,Ride cancelled twice after confirmation; nearly missed train
+14590074476,include,,high,rider,FALSE_ARRIVAL;FARE_TRUST,3;4,,,Driver presses arrived before reaching
+14581925931,include,,medium,rider,CANCELLATION;ACCESS_RESTRICTION,5;6,,Ahmedabad,Drivers cancel and ask to book via another app; taxi association forces drivers to leave
+14578927650,include,,medium,rider,WAITING;CANCELLATION,3;6,,,Long waits and frequent driver cancellations (generic)
+14578890775,include,,high,rider,CANCELLATION,5;6,,,"After OTP the driver refused, cancelled and threatened at pickup point"
+14576705526,include,,medium,rider,WAITING;CANCELLATION,3;6,,,Drivers arrive late; cancelling after long wait incurs charges
+14567902020,include,,medium,rider,WAITING;CANCELLATION,3;6,,Mumbai suburbs,"Long waits, cancellations, then cancellation charges; mentions Rapido"
+14560199816,include,,high,rider,CANCELLATION;VEHICLE_IDENTIFICATION;RIDER_WALKING;COMMUNICATION,3;4;5,,,"Drivers confirm then refuse actual pickup point, ask rider to walk, do not answer"
+14559984602,include,,medium,rider,CANCELLATION,6,,,Cab shown nearby but driver cancelled after confirming
+14555310975,include,,high,rider,PIN_MISMATCH;COMMUNICATION;FARE_TRUST,2;4,,Mangalore,Pickup/drop locations shown to rider differed from driver view
+14551568294,include,,medium,rider,CANCELLATION;FARE_TRUST,6,,,Auto cancelled twice; reviewer attributes to fare mismatch between devices
+14663487201,include,,medium,rider,SUCCESSFUL_COORDINATION,5,,,Driver waited and helped first-time rider
+14662847697,include,,medium,rider,SCHEDULED_TIMING;WAITING;CANCELLATION,3;6,,,"Scheduled ride: assigned driver 20 min late, then cancelled"
+14647399136,include,,medium,rider,CANCELLATION;WAITING,3;6,,,Rides keep cancelling while waiting; mentions Lyft
+14647076738,include,,high,rider,PIN_MISMATCH;ACCESS_RESTRICTION;CANCELLATION;WAITING,2;3;6,event venue,zoo (as stated),Zoo pickup location behind locked bridge confuses everyone
+14647000580,include,,high,rider,GATE_CONFUSION;SUCCESSFUL_COORDINATION,2;5,airport,,Had to work out which door/traffic island; then great
+14662464709,include,,medium,rider,WAITING;CANCELLATION,3;6,,,Driver took longer than announced then cancelled last minute
+14661046487,include,,medium,rider,SCHEDULED_TIMING,3;5,,,Scheduled-ride drivers show up very early; rider feels pressured
+14659871930,include,,medium,rider,CANCELLATION,6,,,Rides constantly cancelled; rebook price higher
+14658368013,include,,medium,rider,CANCELLATION,6,,,Reviewer believes ride cancelled to charge more on rebook
+14658216461,include,,high,rider,WAITING;CANCELLATION,1;3,airport,,Pickup ETAs inaccurate; at airport app keeps matching then re-searching
+14658008493,include,,high,rider,GATE_CONFUSION;COMMUNICATION;CANCELLATION,2;4;6,airport,Austin airport,15 min to find pickup; driver left instead of messaging
+14656990166,include,,high,rider,DRIVER_LOCATION_DIFFICULTY;VEHICLE_IDENTIFICATION;WAITING,3;5,,,Waited 30+ min for driver to find rider; ran after car in rain
+14655482441,include,,high,rider,PIN_MISMATCH;GATE_CONFUSION;SUCCESSFUL_COORDINATION,2;4;5,event venue,ABQ balloon museum / fiesta park (as stated),App changed pickup to park with many entrances; patient driver re-set trip
+14655339249,include,,medium,rider,CANCELLATION;WAITING,3;6,,,Driver cancels 2 min before arrival after 20 min wait
+14655146279,include,,medium,rider,ACCESS_RESTRICTION;SUCCESSFUL_COORDINATION,5,residential complex,,Driver patient with gate-code process
+14654367857,include,,high,rider,WAITING;DRIVER_LOCATION_DIFFICULTY,3,,,"ETA inaccurate; driver location on map inaccurate, no progress"
+14653528907,include,,high,rider,SUCCESSFUL_COORDINATION,5,,,Driver picked rider up while rider was still walking to pickup point
+14652474929,include,,medium,rider,SCHEDULED_TIMING;CANCELLATION,3;6,,,Drivers arrive 20 min early and leave
+14652032340,include,,medium,rider,PIN_MISMATCH,2,,,App forces a different pickup spot; cannot use current location
+14651623856,include,,medium,rider,CANCELLATION;WAITING,3;6,,"Dublin, Ireland and Hilton Head, SC",Assigned driver cancelled before pickup; waited in rain
+14650872657,include,,high,rider,FALSE_ARRIVAL;CANCELLATION,3;6,,,"Driver claimed to be at location, was not, cancelled; rider charged fee"
+14650652644,include,,high,rider,PIN_MISMATCH,2,,Kansas City,Pickup locations wrong (GPS)
+14649996532,include,,high,rider,PIN_MISMATCH;DRIVER_LOCATION_DIFFICULTY,2;3,,,App sent driver to wrong location twice in a week
+14649146950,include,,medium,rider,SCHEDULED_TIMING;CANCELLATION,6,,,Scheduled ride cancelled at pickup time; missed flight
+14543747514,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14539199870,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14652787779,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14649869119,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14629819116,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14637593131,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14604191848,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14603615536,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14584199829,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14574855703,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14659403379,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14656630808,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14652103673,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14651335810,exclude,pre_assignment_matching_or_availability,,rider,,,,,
+14653756247,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14538910919,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14618824914,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14610906060,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14588572594,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14664365848,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14652572591,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14652694948,exclude,ambiguous_wait_or_cancellation_stage,,rider,,,,,
+14664794161,exclude,dispatch_distance_not_coordination,,rider,,,,,
+14663944173,exclude,dispatch_distance_not_coordination,,rider,,,,,
+14655599713,exclude,dispatch_distance_not_coordination,,rider,,,,,
+14636829137,exclude,fare_or_payment_only,,rider,,,,,
+14629463401,exclude,fare_or_payment_only,,rider,,,,,
+14626699028,exclude,fare_or_payment_only,,rider,,,,,
+14614588790,exclude,fare_or_payment_only,,rider,,,,,
+14614448259,exclude,fare_or_payment_only,,rider,,,,,
+14613514929,exclude,fare_or_payment_only,,rider,,,,,
+14613463862,exclude,fare_or_payment_only,,rider,,,,,
+14612159379,exclude,fare_or_payment_only,,rider,,,,,
+14587992520,exclude,fare_or_payment_only,,rider,,,,,
+14569746979,exclude,fare_or_payment_only,,rider,,,,,
+14563254604,exclude,fare_or_payment_only,,rider,,,,,
+14555063204,exclude,fare_or_payment_only,,rider,,,,,
+14646974463,exclude,fare_or_payment_only,,rider,,,,,
+14662781832,exclude,fare_or_payment_only,,rider,,,,,
+14656661975,exclude,fare_or_payment_only,,rider,,,,,
+14660856422,exclude,delivery_or_parcel,,rider,,,,,
+14638758430,exclude,delivery_or_parcel,,rider,,,,,
+14618978192,exclude,delivery_or_parcel,,rider,,,,,
+14613751793,exclude,delivery_or_parcel,,rider,,,,,
+14600461134,exclude,delivery_or_parcel,,rider,,,,,
+14571056162,exclude,delivery_or_parcel,,rider,,,,,
+14570636410,exclude,delivery_or_parcel,,rider,,,,,
+14658886656,exclude,delivery_or_parcel,,rider,,,,,
+14657969703,exclude,delivery_or_parcel,,rider,,,,,
+14655791741,exclude,delivery_or_parcel,,rider,,,,,
+14647361455,exclude,destination_or_in_trip_routing,,rider,,,,,
+14659661154,exclude,destination_or_in_trip_routing,,rider,,,,,
+14659310294,exclude,destination_or_in_trip_routing,,rider,,,,,
+14657713042,exclude,destination_or_in_trip_routing,,rider,,,,,
+14653123993,exclude,destination_or_in_trip_routing,,rider,,,,,
+14650070307,exclude,destination_or_in_trip_routing,,rider,,,,,
+14660637323,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14649860242,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14640249878,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14629712549,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14615895481,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14604979552,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14604523344,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14599641445,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14568490722,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14649001088,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14660260558,exclude,safety_behaviour_or_support_not_coordination,,rider,,,,,
+14641597159,exclude,pre_booking_pin_or_feature_request,,rider,,,,,
+14636547144,exclude,pre_booking_pin_or_feature_request,,rider,,,,,
+14575137241,exclude,pre_booking_pin_or_feature_request,,rider,,,,,
+14659821107,exclude,pre_booking_pin_or_feature_request,,rider,,,,,
+14545483591,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14539845243,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14609731316,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14594965739,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14587680085,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14554930328,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14664809816,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14664148321,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14663539997,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14663421485,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14663127290,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14647260519,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14646892127,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14661559054,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14661466571,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14660439112,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14659973606,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14659544820,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14659459052,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14657963537,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14657959757,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14657709117,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14656536707,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14655646117,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14655625229,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14654945407,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14654046352,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14653517265,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14652997590,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14650018266,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14648986775,exclude,generic_praise_no_coordination_detail,,rider,,,,,
+14647893580,exclude,generic_praise_no_coordination_detail,,rider,,,,,

@@ -1,0 +1,14 @@
+﻿brief_item,provisional,source_question,option,question_type,count_all,denom_all,pct_all,count_included,denom_included,pct_included,matches_provisional_all
+Entrance/gate confusion,13.0,Q6,Confusion about which entrance or gate to use,multi,13.0,26,50.0,13.0,24,54.2,True
+Incorrect/inconvenient pickup pin,12.0,Q6,Pickup pin showed an incorrect or inconvenient location,multi,12.0,26,46.2,10.0,24,41.7,True
+Long waiting,11.0,Q6,Long waiting time,multi,11.0,26,42.3,11.0,24,45.8,True
+Driver unable to find exact location,9.0,Q6,Driver could not find my exact location,multi,9.0,26,34.6,9.0,24,37.5,True
+Driver did not communicate clearly,8.0,Q7,Did not communicate clearly,multi,8.0,26,30.8,8.0,24,33.3,True
+Driver asked rider to walk elsewhere,8.0,Q6,Driver asked me to walk to another location,multi,8.0,26,30.8,8.0,24,33.3,True
+Driver asked rider to walk elsewhere,8.0,Q7,Asked me to move to another location,multi,7.0,26,26.9,6.0,24,25.0,False
+Driver unable to access pickup point,4.0,Q6,Driver could not access the pickup point,multi,4.0,26,15.4,4.0,24,16.7,True
+Repeated calls/messages,3.0,Q6,Repeated phone calls or messages,multi,3.0,26,11.5,3.0,24,12.5,True
+Rider cancellation,6.0,Q10,I cancelled the booking,single,6.0,26,23.1,6.0,24,25.0,True
+Driver cancellation,4.0,Q10,Driver cancelled the booking,single,4.0,26,15.4,4.0,24,16.7,True
+Driver cancellation,4.0,Q7,Cancelled the booking,multi,7.0,26,26.9,7.0,24,29.2,False
+Average Uber rating (1-5),3.7,Q2,mean,scale,3.73,26,,3.79,24,,True

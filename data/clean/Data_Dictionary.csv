@@ -1,0 +1,105 @@
+﻿variable,derived_from,export_header,form_wording,type,options,required,other_allowed,eligible_base,n_eligible,n_answered,notes
+timestamp,,Timestamp,,meta,,,,all,27.0,27,original text (whitespace-trimmed)
+consent,,Consent,,meta,,,,all,27.0,0,original text (whitespace-trimmed)
+Q1,,Q1. Have you used Uber for booking a ride?,Q1. Have you used Uber for booking a ride?,single,"Yes, frequently | Yes, occasionally | Yes, but not in the last 3 months | No, I have never used Uber",True,False,all,27.0,27,original text (whitespace-trimmed)
+Q2,,Q2. How would you rate your overall experience with Uber?,Q2. How would you rate your overall experience with Uber?,scale,1 | 2 | 3 | 4 | 5,True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q2a,,Q2a. What is the main reason for your rating?,Q2a. What is the main reason for your rating?,text,,False,False,uber_user,26.0,21,original text (whitespace-trimmed)
+Q3,,Q3. Have you booked an Uber from a crowded or complex location?,Q3. Have you booked an Uber from a crowded or complex location?,single,"Yes, several times | Yes, once or twice | No | Cannot remember",True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q4,,Q4. Where have you experienced difficulty finding or meeting your Uber driver?,Q4. Where have you experienced difficulty finding or meeting your Uber driver?,multi,Shopping mall | Office complex / IT park | Airport | Railway station / Bus stand | Crowded market | Busy street / Main road | Event venue | Residential complex | I have not experienced such difficulty,True,True,uber_user,26.0,26,original text (whitespace-trimmed)
+Q4a,,"Q4a. If you remember, mention the location type or entrance where the difficulty occurred.","Q4a. If you remember, mention the location type or entrance where the difficulty occurred.",text,,False,False,uber_user,26.0,0,original text (whitespace-trimmed)
+Q5,,Q5. How helpful is Uber's app in showing your pickup location and helping you find the driver?,Q5. How helpful is Uber's app in showing your pickup location and helping you find the driver?,single,Very helpful and accurate | Mostly helpful | Sometimes confusing or inaccurate | Often confusing or inaccurate | I have not used these features / Not sure,True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q5a,,Q5a. Is the app showing exact location of yours or near-by places? Please share your experience with app,"Q5a. What worked well, or what information was missing or confusing?",text,,False,False,uber_user,26.0,0,original text (whitespace-trimmed)
+Q6,,Q6. What difficulties have you experienced when meeting your driver in crowded places?,Q6. What difficulties have you experienced when meeting your driver in crowded places?,multi,Driver could not find my exact location | Pickup pin showed an incorrect or inconvenient location | Confusion about which entrance or gate to use | Driver could not access the pickup point | Driver asked me to walk to another location | Repeated phone calls or messages | Long waiting time | Difficulty identifying the driver's vehicle | No difficulties,True,True,uber_user,26.0,26,original text (whitespace-trimmed)
+Q6a,,Q6a. Please describe what happened during your most memorable difficult pickup.,Q6a. Please describe what happened during your most memorable difficult pickup.,text,,False,False,uber_user,26.0,13,original text (whitespace-trimmed)
+Q7,,Q7. How did the driver coordinate with you when finding your location was difficult?,Q7. How did the driver coordinate with you when finding your location was difficult?,multi,Called and politely asked for directions | Sent messages through the app | Helped identify a suitable meeting point | Asked me to move to another location | Appeared confused about the location | Did not communicate clearly | Cancelled the booking | Not applicable,True,True,uber_user,26.0,26,original text (whitespace-trimmed)
+Q7a,,Q7a. What did the driver say or do that helped or made the situation more difficult?,Q7a. What did the driver say or do that helped or made the situation more difficult?,text,,False,False,uber_user,26.0,0,original text (whitespace-trimmed)
+Q8,,Q8. How would you describe the driver's behavior during a difficult pickup?,Q8. How would you describe the driver's behavior during a difficult pickup?,single,Very polite and helpful | Cooperative and patient | Neutral | Frustrated or impatient | Rude or unhelpful | Behavior varied across rides | Not applicable,True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q8a,,"Q8a. If you experienced frustration or particularly good service, what happened?","Q8a. If you experienced frustration or particularly good service, what happened?",text,,False,False,uber_user,26.0,9,original text (whitespace-trimmed)
+Q9,,Q9. How did you feel when you had difficulty finding your driver?,Q9. How did you feel when you had difficulty finding your driver?,multi,Frustrated | Anxious or stressed | Unsafe or uncomfortable | Worried about being late | Confused | Calm because the driver helped | No significant inconvenience | Not applicable,True,True,uber_user,26.0,26,original text (whitespace-trimmed)
+Q9a,,Q9a. What was the biggest impact on you?,Q9a. What was the biggest impact on you?,text,,False,False,uber_user,26.0,0,original text (whitespace-trimmed)
+Q10,,Q10. What was the outcome of your difficult pickup experience?,Q10. What was the outcome of your difficult pickup experience?,single,Successfully met the driver without much delay | Successfully met the driver after a delay | I cancelled the booking | Driver cancelled the booking | Booking ended for another reason | Not applicable,True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q10a,,"Q10a. If the ride was cancelled or delayed, what was the main reason?","Q10a. If the ride was cancelled or delayed, what was the main reason?",text,,False,False,uber_user,26.0,15,original text (whitespace-trimmed)
+Q11,,Q11. Has an Uber driver ever requested extra money beyond the fare shown in the app?,Q11. Has an Uber driver ever requested extra money beyond the fare shown in the app?,single,Yes | No | Cannot remember | Prefer not to answer,True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q11a,,"Q11a. If yes, what reason did the driver give?","Q11a. If yes, what reason did the driver give?",text,,False,False,uber_user,26.0,17,original text (whitespace-trimmed)
+Q12,,Q12. What has been your most positive experience with Uber?,Q12. What has been your most positive experience with Uber?,text,,False,False,uber_user,26.0,14,original text (whitespace-trimmed)
+Q13,,"Q13. What improvements would you suggest to make Uber pickups easier, especially in crowded places?","Q13. What improvements would you suggest to make Uber pickups easier, especially in crowded places?",text,,False,False,uber_user,26.0,14,original text (whitespace-trimmed)
+Q14,,Q14. Is there another ride-booking app you prefer over Uber?,Q14. Is there another ride-booking app you prefer over Uber?,single,Rapido | Ola | Namma Yatri | Other | I prefer Uber | No particular preference,True,False,uber_user,26.0,26,original text (whitespace-trimmed)
+Q14a,,Q14a. Why do you prefer that app?,Q14a. Why do you prefer that app?,text,,False,False,uber_user,26.0,18,original text (whitespace-trimmed)
+Q15,,Q15. Would you like to provide any additional feedback about Uber app and their services?,Q15. Would you like to provide any additional feedback about Uber?,text,,False,False,uber_user,26.0,9,original text (whitespace-trimmed)
+Q14_nonuber,,Q14 (non-Uber users). Which ride-booking app do you prefer?,Q14 (non-Uber users). Which ride-booking app do you prefer?,single,Rapido | Ola | Namma Yatri | Other | No particular preference | I do not use ride-booking apps,True,False,non_uber,1.0,1,original text (whitespace-trimmed)
+Q14a_nonuber,,Q14a (non-Uber users). Why do you prefer that app?,Q14a (non-Uber users). Why do you prefer that app?,text,,False,False,non_uber,1.0,1,original text (whitespace-trimmed)
+Q4__shopping_mall,Q4,,,derived,,,,,,26,"1 = selected ""Shopping mall""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__office_complex_it_park,Q4,,,derived,,,,,,26,"1 = selected ""Office complex / IT park""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__airport,Q4,,,derived,,,,,,26,"1 = selected ""Airport""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__railway_station_bus_stand,Q4,,,derived,,,,,,26,"1 = selected ""Railway station / Bus stand""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__crowded_market,Q4,,,derived,,,,,,26,"1 = selected ""Crowded market""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__busy_street_main_road,Q4,,,derived,,,,,,26,"1 = selected ""Busy street / Main road""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__event_venue,Q4,,,derived,,,,,,26,"1 = selected ""Event venue""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__residential_complex,Q4,,,derived,,,,,,26,"1 = selected ""Residential complex""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__i_have_not_experienced_such_difficulty,Q4,,,derived,,,,,,26,"1 = selected ""I have not experienced such difficulty""; 0 = answered, not selected; NA = not eligible or not answered"
+Q4__other,Q4,,,derived,,,,,,26,1 = write-in/unmatched text present; NA = not eligible or not answered
+Q4_other_text,Q4,,,derived,,,,,,3,write-in text not matching a form option
+Q4_n_selected,Q4,,,derived,,,,,,26,options ticked incl. write-in
+Q6__driver_could_not_find_my_exact_location,Q6,,,derived,,,,,,26,"1 = selected ""Driver could not find my exact location""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__pickup_pin_showed_an_incorrect_or_inconv,Q6,,,derived,,,,,,26,"1 = selected ""Pickup pin showed an incorrect or inconvenient location""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__confusion_about_which_entrance_or_gate_t,Q6,,,derived,,,,,,26,"1 = selected ""Confusion about which entrance or gate to use""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__driver_could_not_access_the_pickup_point,Q6,,,derived,,,,,,26,"1 = selected ""Driver could not access the pickup point""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__driver_asked_me_to_walk_to_another_locat,Q6,,,derived,,,,,,26,"1 = selected ""Driver asked me to walk to another location""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__repeated_phone_calls_or_messages,Q6,,,derived,,,,,,26,"1 = selected ""Repeated phone calls or messages""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__long_waiting_time,Q6,,,derived,,,,,,26,"1 = selected ""Long waiting time""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__difficulty_identifying_the_driver_s_vehi,Q6,,,derived,,,,,,26,"1 = selected ""Difficulty identifying the driver's vehicle""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__no_difficulties,Q6,,,derived,,,,,,26,"1 = selected ""No difficulties""; 0 = answered, not selected; NA = not eligible or not answered"
+Q6__other,Q6,,,derived,,,,,,26,1 = write-in/unmatched text present; NA = not eligible or not answered
+Q6_other_text,Q6,,,derived,,,,,,0,write-in text not matching a form option
+Q6_n_selected,Q6,,,derived,,,,,,26,options ticked incl. write-in
+Q7__called_and_politely_asked_for_directions,Q7,,,derived,,,,,,26,"1 = selected ""Called and politely asked for directions""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__sent_messages_through_the_app,Q7,,,derived,,,,,,26,"1 = selected ""Sent messages through the app""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__helped_identify_a_suitable_meeting_point,Q7,,,derived,,,,,,26,"1 = selected ""Helped identify a suitable meeting point""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__asked_me_to_move_to_another_location,Q7,,,derived,,,,,,26,"1 = selected ""Asked me to move to another location""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__appeared_confused_about_the_location,Q7,,,derived,,,,,,26,"1 = selected ""Appeared confused about the location""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__did_not_communicate_clearly,Q7,,,derived,,,,,,26,"1 = selected ""Did not communicate clearly""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__cancelled_the_booking,Q7,,,derived,,,,,,26,"1 = selected ""Cancelled the booking""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__not_applicable,Q7,,,derived,,,,,,26,"1 = selected ""Not applicable""; 0 = answered, not selected; NA = not eligible or not answered"
+Q7__other,Q7,,,derived,,,,,,26,1 = write-in/unmatched text present; NA = not eligible or not answered
+Q7_other_text,Q7,,,derived,,,,,,0,write-in text not matching a form option
+Q7_n_selected,Q7,,,derived,,,,,,26,options ticked incl. write-in
+Q9__frustrated,Q9,,,derived,,,,,,26,"1 = selected ""Frustrated""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__anxious_or_stressed,Q9,,,derived,,,,,,26,"1 = selected ""Anxious or stressed""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__unsafe_or_uncomfortable,Q9,,,derived,,,,,,26,"1 = selected ""Unsafe or uncomfortable""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__worried_about_being_late,Q9,,,derived,,,,,,26,"1 = selected ""Worried about being late""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__confused,Q9,,,derived,,,,,,26,"1 = selected ""Confused""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__calm_because_the_driver_helped,Q9,,,derived,,,,,,26,"1 = selected ""Calm because the driver helped""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__no_significant_inconvenience,Q9,,,derived,,,,,,26,"1 = selected ""No significant inconvenience""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__not_applicable,Q9,,,derived,,,,,,26,"1 = selected ""Not applicable""; 0 = answered, not selected; NA = not eligible or not answered"
+Q9__other,Q9,,,derived,,,,,,26,1 = write-in/unmatched text present; NA = not eligible or not answered
+Q9_other_text,Q9,,,derived,,,,,,0,write-in text not matching a form option
+Q9_n_selected,Q9,,,derived,,,,,,26,options ticked incl. write-in
+Q2_rating,Q2,,,derived,,,,,,26,numeric 1-5
+timestamp_parsed,timestamp,,,derived,,,,,,27,datetime
+Q2a_nonanswer,Q2a,,,derived,,,,,,21,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q4a_nonanswer,Q4a,,,derived,,,,,,0,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q5a_nonanswer,Q5a,,,derived,,,,,,0,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q6a_nonanswer,Q6a,,,derived,,,,,,13,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q7a_nonanswer,Q7a,,,derived,,,,,,0,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q8a_nonanswer,Q8a,,,derived,,,,,,9,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q9a_nonanswer,Q9a,,,derived,,,,,,0,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q10a_nonanswer,Q10a,,,derived,,,,,,15,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q11a_nonanswer,Q11a,,,derived,,,,,,17,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q12_nonanswer,Q12,,,derived,,,,,,14,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q13_nonanswer,Q13,,,derived,,,,,,14,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q14a_nonanswer,Q14a,,,derived,,,,,,18,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q15_nonanswer,Q15,,,derived,,,,,,9,"1 = NA-style text (na, n/a, none, -, not applicable)"
+Q14a_nonuber_nonanswer,Q14a_nonuber,,,derived,,,,,,1,"1 = NA-style text (na, n/a, none, -, not applicable)"
+flag_Q4_i_have_not_experienc_plus_other,,,,flag/meta,,,,,,1,
+flag_Q6_no_difficulties_plus_other,,,,flag/meta,,,,,,0,
+flag_Q7_not_applicable_plus_other,,,,flag/meta,,,,,,0,
+flag_Q9_not_applicable_plus_other,,,,flag/meta,,,,,,0,
+flag_Q9_no_significant_incon_plus_other,,,,flag/meta,,,,,,2,
+flag_Q3_no_but_difficulty_reported,,,,flag/meta,,,,,,27,
+flag_suspected_test,,,,flag/meta,,,,,,3,
+flag_duplicate_content,,,,flag/meta,,,,,,0,
+flag_blank_row,,,,flag/meta,,,,,,0,
+resp_id,,,,flag/meta,,,,,,27,
+sheet_row,,,,flag/meta,,,,,,27,sheet_row = row number in the Google Sheet (header = row 1)
+respondent_group,,,,flag/meta,,,,,,27,respondent_group from Q1 branching
+include_in_analysis,,,,flag/meta,,,,,,24,
