@@ -1,0 +1,7 @@
+# Raw survey responses may contain personal data — keep out of git
+data/raw/*
+!data/raw/.gitkeep
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
